@@ -2,11 +2,20 @@
     <h2>{{titles[id]}}</h2>
     <p>{{num_cards[id]}}</p>
     <div *ngIf="int_id != 5">
-        <label for="res">Risposta</label>
-        <input type="text" id="res" [formControl]="res">
-
-        <button *ngIf="res.value.toLowerCase() === gifts[id]" class="btn btn-primary" (click)="verifyChallenge(res.value)">
-            Validate
-        </button>
+        <div class="form-group">
+            <mat-form-field appearance="outline">
+                <mat-label></mat-label>
+                <input matInput placeholder="Risposta" type="text" id="res" [formControl]="res">
+            </mat-form-field>
+    
+        </div>
+        <div class="form-group">
+            <button mat-button class="mat-raised-button" 
+                color="accent" 
+                *ngIf="res.value.toLowerCase() === gifts[id]" (click)="verifyChallenge(res.value)">
+                Prossimo indizio
+            </button>
+        </div>
+       
     </div>
 </div>

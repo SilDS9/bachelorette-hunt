@@ -1,7 +1,7 @@
 {
-  "name": "BDHunt",
-  "short_name": "BDHunt",
-  "theme_color": "#ffeb3b",
+  "name": "Bachelorette hunt",
+  "short_name": "Bachelorette",
+  "theme_color": "#fce4ec",
   "background_color": "#263228",
   "display": "standalone",
   "scope": "./",
