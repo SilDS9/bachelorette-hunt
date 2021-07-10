@@ -1,0 +1,23 @@
+<div class="container">
+    <h1 [@hello]>
+        Ciao Stella, sono SamePenis
+    </h1>
+    <h2 [@welcome]>
+        Ti avevo promesso che avremmo passato dei giorni insieme, ed eccoci qua!
+    </h2>
+    <div [@ruleAnimation]="rules.length">
+        <div *ngFor="let item of rules">
+            <mat-list class="center" role="list">
+                <mat-list-item style="height: auto;" role="listitem">{{item}}</mat-list-item>
+            </mat-list>
+        </div>
+    </div>
+    <div [@start] style="margin-top: 20px;">
+        <button mat-button class="mat-raised-button" 
+                color="accent"
+                [routerLink]="['/first-clue']">
+            <mat-icon>search</mat-icon>
+            Start
+        </button>
+    </div>
+</div>

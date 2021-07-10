@@ -1,0 +1,25 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+}
+
+@import '~@angular/material/theming';
+@include mat-core();
+
+$bdhunt-app-primary: mat-palette($mat-pink, 50);
+$bdhunt-app-accent: mat-palette($mat-light-green, 400);
+
+$bdhunt-app-theme: mat-light-theme((
+    color: (
+        primary: $bdhunt-app-primary,
+        accent: $bdhunt-app-accent
+    )
+));
+
+@include angular-material-theme($bdhunt-app-theme);

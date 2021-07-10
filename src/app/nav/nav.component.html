@@ -1,0 +1,13 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav-content>
+    <mat-toolbar color="primary">
+      <mat-icon>auto_awesome</mat-icon>
+      <span>Bachelorette Hunt</span>
+      <span class="example-spacer"></span>
+      <button mat-icon-button routerLink="/scanner" routerLinkActive='active'>
+        <mat-icon> qr_code_scanner </mat-icon>
+      </button>
+    </mat-toolbar>
+    <router-outlet></router-outlet>
+  </mat-sidenav-content>
+</mat-sidenav-container>
