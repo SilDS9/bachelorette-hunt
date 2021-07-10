@@ -17,7 +17,7 @@ export class ClueComponent implements OnInit {
     2: "Il record di masturbazione maschile è di 9 ore e 58 minuti",
     3: "Durante un eiaculazione, lo sperma viaggia alla velocità di 45 km/h",
     4: "Il record di eiaculazione lo detiene Hortz Scholts, che riuscì a raggiungere 6 metri di distanza con un singolo getto. Schultz detiene anche il record per l'eiaculazione più alta: arrivò a 4 m, oltre il primo piano di un palazzo",
-    5: "Un uomo du 400 è talmente flessibile da poter praticare l'autofellatio"
+    5: "Un uomo su 400 è talmente flessibile da poter praticare l'autofellatio"
   }
 
   constructor(private activatedRoute: ActivatedRoute,

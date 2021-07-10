@@ -20,7 +20,6 @@ import { HomeComponent } from './home/home.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ClueComponent } from './clue/clue.component';
 import { FirstClueComponent } from './first-clue/first-clue.component';
-import { GreetingsComponent } from './greetings/greetings.component';
 import { ChallengeComponent } from './challenge/challenge.component';
 import { ReactiveFormsModule } from '@angular/forms';
 
@@ -32,7 +31,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomeComponent,
     ClueComponent,
     FirstClueComponent,
-    GreetingsComponent,
     ChallengeComponent
   ],
   imports: [
