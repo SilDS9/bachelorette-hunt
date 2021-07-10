@@ -46,7 +46,7 @@ export class HomeComponent implements OnInit {
     "Ti accompagnerò passo passo in questa ricerca",
     "Le regole sono semplici: ti darò un indizio su un colore da trovare per scoprire le sfide che ti attendono",
     "Al termine di ogni sfida, riceverai una ricompensa, che ti servirà per avere l'indizio successivo, insieme ai miei preziosi insegnamenti, fondamentali per affrontare il resto della tua vita con lo stesso pene",
-    "Sei pronta per iniziare questa avventura?"
+    "Per iniziare questa avventura, vai ad indossare la tua armatura!"
   ];
 
   constructor() { }

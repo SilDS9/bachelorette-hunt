@@ -19,6 +19,7 @@ export class QrScannerComponent implements OnInit {
 
   onCodeResult(resultString: string) {
     this.qrResultString = resultString;
+    console.log(resultString);
   }
 
 }
